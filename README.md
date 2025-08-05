@@ -1,0 +1,2 @@
+# adobe-file-viewer
+PSDやAIファイルをブラウザでサクッとプレビューできるWebサービス
