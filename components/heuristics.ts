@@ -39,7 +39,7 @@ const isLikelyHeading = (s: string, next: string | null) => {
   const endsWithColon = /[:：]$/.test(t);
   if (SETTINGS.preferHeadingColon && endsWithColon) return true;
 
-  const len = [...t].length;
+  const len = Array.from(t).length; // ESの互換性OK（絵文字などのサロゲートペアも安全）
   const endsWithPunct = /[。．!?！？]$/.test(t);
   const hasHints = endsWithColon || /^【.+】$/.test(t);
   const selfLooksHeading = hasHints || (len <= 20 && !endsWithPunct);
