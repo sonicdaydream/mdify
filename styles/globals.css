@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Markdown プレビュー用にちょっと余白を整える */
+.prose p { margin: 0.5rem 0; }
+.prose pre code { white-space: pre-wrap; word-break: break-word; }

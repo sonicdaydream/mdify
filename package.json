@@ -1,0 +1,28 @@
+{
+  "name": "mdify-poc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "marked": "^12.0.2",
+    "next": "14.1.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.12.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "24.2.1",
+    "@types/react": "19.1.9",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.3.3"
+  }
+}
